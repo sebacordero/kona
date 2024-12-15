@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #0077b6;
+    color: white;
+    padding: 1rem 0;
+}
+
+.logo-container {
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+nav {
+    background: #023e8a;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.entrenadores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.entrenador {
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.noticia {
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links li {
+    margin: 0 1rem;
+}
+
+footer {
+    text-align: center;
+    background: #0077b6;
+    color: white;
+    padding: 1rem 0;
+}
